@@ -1,0 +1,21 @@
+.quiz-answer {
+  padding: 2rem;
+  background-color: gray;
+  margin: 1rem 0;
+  color: #fff;
+}
+.quiz-answer:active {
+  background-color: rgb(165, 162, 162);
+}
+
+.correct-answer {
+  border: 2px solid green;
+}
+
+.incorrect-answer {
+  border: 2px solid orangered;
+}
+
+.disable-answer {
+  pointer-events: none;
+}
